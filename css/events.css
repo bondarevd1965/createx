@@ -1,0 +1,74 @@
+.header {
+  background-image: none;
+}
+
+.events {
+  padding-top: 80px;
+  height: 1700px;
+  background-image: url(../images/events_main_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.events_nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-bottom: 10px;
+}
+
+#events_views_icon {
+  fill: #424551;
+}
+
+#events_views_icon:hover {
+  fill: #FF3F3A;
+}
+
+#events_views_icon:active {
+  fill: #FF3F3A;
+}
+
+/* .events_item {
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  width: 1230px;
+  height: 126px;
+  background: #fff;
+} */
+
+.event_item_btn {
+  cursor: pointer;
+}
+
+.events_item:hover {
+  box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
+
+  .event_item_btn {
+    background: linear-gradient(45deg, #ff3f3a 0%, #f75e05 100%);
+    color: #fff;
+  }
+}
+
+/* #list-view #events_views_icon {
+  fill: #FF3F3A;
+} */
+
+.events_items.grid-view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.events_item.grid-view {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.events_item_date {
+  margin-left: 0;
+}

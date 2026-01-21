@@ -1,0 +1,272 @@
+.header {
+  background-image: none;
+}
+
+.about {
+  padding-top: 180px;
+}
+
+.about_left {
+  width: 600px;
+}
+
+.stat {
+  padding-top: 80px;
+}
+
+.stat_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stat_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item_value {
+  color: #FF3F3A;
+}
+
+/* VALUES */
+.values {
+  padding-top: 80px;
+}
+
+.values_subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gray-900);
+  text-align: center;
+}
+
+.values_title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.values_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.values_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.values_item img {
+  width: 48px;
+  height: 48px;
+}
+
+.values_item_name {
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #1e212c;
+  text-align: center;
+}
+
+.values_item_desc {
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #787a80;
+  text-align: center;
+}
+
+/* DIRECTIONS */
+.directions {
+  padding-top: 180px;
+}
+
+.directions_subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1e212c;
+  ;
+  text-align: center;
+}
+
+.directions_title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  padding-bottom: 60px;
+}
+
+.directions_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.directions_item {
+  width: 390px;
+  height: 420px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+
+  box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
+  background: var(--white);
+}
+
+.directions_item.free {
+  background-color: #F4F5F6;
+
+}
+
+.directions_item.free p {
+  padding-left: 74px;
+  padding-right: 74px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #424551;
+  text-align: center;
+  padding-top: 50%;
+}
+
+.direction_item_text {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.direction_item_category {
+  padding: 1px 8px;
+  border-radius: 4px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  max-width: 127px;
+}
+
+.direction_item_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787a80;
+}
+
+.item_link {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.direction_item_link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1e212c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.direction_item_link:hover {
+  color: #FF3F3A;
+
+}
+
+/* PROCESS */
+.process {
+  padding: 120px;
+}
+
+.process_subtitle {
+  padding-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1e212c;
+  ;
+}
+
+.process_title {
+  padding-bottom: 60px;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  ;
+}
+
+.process_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.process_item {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.item_inner {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.item_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item_num {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 150%;
+  color: #787a80;
+}
+
+.item_name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+
+.item_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787a80;
+}
